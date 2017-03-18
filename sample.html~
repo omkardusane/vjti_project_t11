@@ -1,0 +1,27 @@
+ <button onclick="sync()">Click sync </button> 
+ <button onclick="async(someWork)">Click async </button> 
+
+
+<script>
+var a = 2;
+
+function sync(){
+ var b = new Date().getTime();
+ var endTime = b + 3*1000 ;
+ while( (new Date().getTime()) < endTime){
+	// do nothing		
+ }
+ someWork(' SYNC ')
+ 
+}
+
+
+function async(callback){
+ setTimeout(function(){callback(' ASYNC ')},5000);
+}
+
+function someWork(msg){
+  console.log('event: '+msg);
+}
+
+</script>

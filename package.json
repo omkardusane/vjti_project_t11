@@ -1,0 +1,22 @@
+{
+  "name": "om_p3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sample.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/omkardusane/vjti_project_t11.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/omkardusane/vjti_project_t11/issues"
+  },
+  "homepage": "https://github.com/omkardusane/vjti_project_t11",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}
