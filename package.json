@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/omkardusane/vjti_project_t11",
   "dependencies": {
+    "body-parser": "^1.17.1",
     "express": "^4.15.2"
   }
 }
